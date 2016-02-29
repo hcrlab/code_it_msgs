@@ -46,6 +46,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  Object.msg
   Program.msg
 )
 
@@ -60,6 +61,7 @@ add_service_files(
   ListPrograms.srv
   primitives/DisplayMessage.srv
   primitives/AskMultipleChoice.srv
+  primitives/FindObjects.srv
   primitives/GoTo.srv
   primitives/GoToDock.srv
   primitives/LookAt.srv
