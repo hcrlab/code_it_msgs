@@ -46,6 +46,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  ArmId.msg
   Object.msg
   Program.msg
 )
@@ -65,7 +66,10 @@ add_service_files(
   primitives/GoTo.srv
   primitives/GoToDock.srv
   primitives/LookAt.srv
+  primitives/Pick.srv
+  primitives/Place.srv
   primitives/Say.srv
+  primitives/TuckArms.srv
 )
 
 ## Generate actions in the 'action' folder
