@@ -47,6 +47,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   ArmId.msg
+  GripperId.msg
   Object.msg
   Program.msg
 )
@@ -70,6 +71,7 @@ add_service_files(
   primitives/Place.srv
   primitives/Say.srv
   primitives/TuckArms.srv
+  primitives/SetGripper.srv
 )
 
 ## Generate actions in the 'action' folder

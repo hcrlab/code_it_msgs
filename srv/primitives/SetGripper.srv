@@ -1,0 +1,8 @@
+code_it_msgs/GripperId gripper
+int8 action
+float64 max_effort # Max effort, in Newtons
+
+# Actions
+int8 UNCHANGED=0
+int8 OPEN=1
+int8 CLOSE=2
