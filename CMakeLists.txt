@@ -66,6 +66,7 @@ add_service_files(
   primitives/FindObjects.srv
   primitives/GoTo.srv
   primitives/GoToDock.srv
+  primitives/IsGripperOpen.srv
   primitives/LookAt.srv
   primitives/Pick.srv
   primitives/Place.srv

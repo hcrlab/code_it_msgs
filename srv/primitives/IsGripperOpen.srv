@@ -1,0 +1,3 @@
+code_it_msgs/GripperId gripper
+---
+bool is_open
