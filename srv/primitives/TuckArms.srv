@@ -1,3 +1,4 @@
 bool tuck_left # Tuck left arm if true, deploy left arm if false.
 bool tuck_right # Tuck right arm if true, deploy right arm if false.
 ---
+string error

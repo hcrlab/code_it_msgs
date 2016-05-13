@@ -1,4 +1,5 @@
 string h1_text
 string h2_text
-int32 timeout
+int32 timeout # 0 means set the message on screen, >0 means display for some time, then reset.
 ---
+string error # Set to indicate that displaying the message failed.

@@ -1,3 +1,4 @@
 code_it_msgs/Object object # The object to pick.
 code_it_msgs/ArmId arm # The arm to pick the object with.
 ---
+string error
