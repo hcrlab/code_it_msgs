@@ -70,6 +70,7 @@ add_service_files(
   primitives/LookAt.srv
   primitives/Pick.srv
   primitives/Place.srv
+  primitives/RunPbdAction.srv
   primitives/Say.srv
   primitives/TuckArms.srv
   primitives/SetGripper.srv

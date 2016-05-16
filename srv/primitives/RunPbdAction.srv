@@ -1,0 +1,3 @@
+string action_id # ID of the PbD action in the database. It is assumed that the exact table/collection and database are known from context.
+---
+string error
