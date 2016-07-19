@@ -74,6 +74,7 @@ add_service_files(
   primitives/Say.srv
   primitives/TuckArms.srv
   primitives/SetGripper.srv
+  primitives/MoveForward.srv
 )
 
 ## Generate actions in the 'action' folder
