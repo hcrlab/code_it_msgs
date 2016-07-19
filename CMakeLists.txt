@@ -68,13 +68,15 @@ add_service_files(
   primitives/GoToDock.srv
   primitives/IsGripperOpen.srv
   primitives/LookAt.srv
+  primitives/MoveForward.srv
+  primitives/MoveBack.srv
   primitives/Pick.srv
   primitives/Place.srv
   primitives/RunPbdAction.srv
   primitives/Say.srv
   primitives/TuckArms.srv
+  primitives/Turn.srv
   primitives/SetGripper.srv
-  primitives/MoveForward.srv
 )
 
 ## Generate actions in the 'action' folder
