@@ -1,0 +1,5 @@
+string db_id # The ID of the custom landmark in MongoDB
+bool is_tabletop # True if tabletop scene, which is faster.
+---
+code_it_msgs/Landmark[] landmarks
+string error # Set to indicate that the primitive did not complete.

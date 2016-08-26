@@ -48,6 +48,7 @@ add_message_files(
   FILES
   ArmId.msg
   GripperId.msg
+  Landmark.msg
   Object.msg
   Program.msg
 )
@@ -63,6 +64,7 @@ add_service_files(
   ListPrograms.srv
   primitives/DisplayMessage.srv
   primitives/AskMultipleChoice.srv
+  primitives/FindCustomLandmarks.srv
   primitives/FindObjects.srv
   primitives/GoTo.srv
   primitives/GoToDock.srv
