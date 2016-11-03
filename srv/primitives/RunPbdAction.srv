@@ -1,4 +1,5 @@
 string action_id # ID of the PbD action in the database. It is assumed that the exact table/collection and database are known from context.
+string name # The name of the action, which can ID it if the action_id is not provided.
 # Pre-registered landmarks, optional. If not provided, PbD will search for the necessary landmarks. If provided, PbD will skip searching for these landmarks.
 code_it_msgs/Landmark[] landmarks 
 ---
