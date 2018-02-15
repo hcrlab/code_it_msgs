@@ -77,6 +77,7 @@ add_service_files(
   primitives/SetTorso.srv
   primitives/TuckArms.srv
   primitives/SetGripper.srv
+  primitives/MoveHead.srv
 )
 
 ## Generate actions in the 'action' folder

@@ -1,0 +1,4 @@
+float64 pan_degrees
+float64 tilt_degrees
+---
+string error
