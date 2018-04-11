@@ -1,0 +1,5 @@
+string h1_text
+string h2_text
+---
+string error # Set to indicate that displaying the message failed.
+---

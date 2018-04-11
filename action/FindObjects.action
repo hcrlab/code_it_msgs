@@ -1,0 +1,5 @@
+# Finds tabletop objects in the robot's current view.
+---
+code_it_msgs/Object[] objects
+string error # Set to indicate that the primitive did not complete.
+---
