@@ -85,6 +85,22 @@ add_action_files(
   DIRECTORY action
   FILES
   RunProgram.action
+  DisplayMessage.action
+  AskMultipleChoice.action
+  FindCustomLandmarks.action
+  FindObjects.action
+  GoTo.action
+  GoToDock.action
+  IsGripperOpen.action
+  LookAt.action
+  Pick.action
+  Place.action
+  RunPbdAction.action
+  Say.action
+  SetTorso.action
+  TuckArms.action
+  SetGripper.action
+  MoveHead.action
 )
 
 ## Generate added messages and services with any dependencies listed here
