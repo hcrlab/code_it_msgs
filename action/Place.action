@@ -1,0 +1,5 @@
+# Places an object on a nearby table.
+code_it_msgs/ArmId arm # The arm holding an object.
+---
+string error
+---
