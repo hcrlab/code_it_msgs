@@ -89,6 +89,7 @@ add_action_files(
   AskMultipleChoice.action
   FindCustomLandmarks.action
   FindObjects.action
+  GetPosition.action
   GoTo.action
   GoToDock.action
   IsGripperOpen.action
