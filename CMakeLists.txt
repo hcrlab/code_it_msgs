@@ -102,7 +102,7 @@ add_action_files(
   SetGripper.action
   MoveHead.action
   SlipGripper.action
-  StartCheckingGripper.action
+  Empty.action
 )
 
 ## Generate added messages and services with any dependencies listed here
