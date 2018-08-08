@@ -102,6 +102,8 @@ add_action_files(
   TuckArms.action
   SetGripper.action
   MoveHead.action
+  SlipGripper.action
+  Empty.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -114,7 +116,6 @@ generate_messages(
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
 ################################################
-
 ## To declare and build dynamic reconfigure parameters within this
 ## package, follow these steps:
 ## * In the file package.xml:
