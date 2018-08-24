@@ -106,6 +106,7 @@ add_action_files(
   SlipGripper.action
   Empty.action
   CollectSpeech.action
+  CollectSpeechWakeWord.action
   SpeechContains.action
 )
 
