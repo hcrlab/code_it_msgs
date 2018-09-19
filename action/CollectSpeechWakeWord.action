@@ -1,4 +1,5 @@
 string wake_word
 ---
 string data
+string error
 ---
